@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&family=Updock&display=swap');
+
+html, body {
+  margin: 0;
+  body: 0;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  border-radius: 250px;
+  width: 250px;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+h1 {
+  color: #dedede;
+  text-align: center;
+  font-family: 'Updock', cursive;
+  font-size: 50px;  
+}
+.secundario{
+  font-size: 35px
+}
+p {
+  font-family: 'Saira Condensed', sans-serif;
+  text-align: justify;
+  
+}
+
+article {
+  height: auto;
+  width: 250px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 16px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banderas{
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  style="border:0;
+}
