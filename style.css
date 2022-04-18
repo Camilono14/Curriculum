@@ -12,20 +12,30 @@ img {
   border-radius: 250px;
   width: 250px;
   box-shadow: 0 0 20px #ffffff;
+  display: block;
+  margin: 0px auto;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  font-family: 'Updock', cursive;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 0 0 2px #030303;
 }
 
 h1 {
-  color: #dedede;
-  text-align: center;
-  font-family: 'Updock', cursive;
-  font-size: 50px;  
+  font-size: 70px;
 }
-.secundario{
-  font-size: 35px
-}
+
 p {
   font-family: 'Saira Condensed', sans-serif;
   text-align: center;
+  font-size: 30px
+}
+
+.textfinal{
+  color: #ffffff;
   
 }
 
@@ -38,18 +48,24 @@ article {
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  margin: 16px;
-
-  margin-left: auto;
-  margin-right: auto;
+  margin: 16px auto;
 }
 
-#banderas{
+.banderascye{
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 100%;
-  style="border:0;
+ 
 }
+
+#logoinsta{
+ border-radius: 0px;
+  box-shadow: none;
+  
+}
+#logoface{
+ border-radius: 0px;
+  box-shadow: none;
